@@ -15,12 +15,35 @@
         <deps.output.dir>oscar</deps.output.dir>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.oscar</groupId>
-            <artifactId>oscarJDBC16</artifactId>
-            <version>1.0</version>
-        </dependency>
-    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.6</version>
+                <executions>
+                    <execution>
+                        <id>copy-local-jars</id>
+                        <phase>validate</phase>
+                        <configuration>
+                            <outputDirectory>../../../deploy/drivers/oscar</outputDirectory>
+                            <overwrite>true</overwrite>
+                            <resources>
+                                <resource>
+                                    <directory>lib</directory>
+                                    <includes>
+                                        <include>*.jar</include>
+                                    </includes>
+                                </resource>
+                            </resources>
+                        </configuration>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
