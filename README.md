@@ -1,29 +1,34 @@
 <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png" alt="CloudBeaver logo" align="right" width="250"/>
 
-# CloudBeaver Community
+# CloudBeaver Community（社区版）
 
-Cloud Database Manager - Community Edition.  
-CloudBeaver is a web server that provides a rich web interface. The server itself is a Java application, and the web part is written in TypeScript and React.  
-It is free to use and open-source (licensed under [Apache 2](https://github.com/dbeaver/cloudbeaver/blob/devel/LICENSE) license).  
-See our [WIKI](https://github.com/dbeaver/cloudbeaver/wiki) for more details. 
+云数据库管理器社区版。
+CloudBeaver 是一个提供丰富 Web 界面的数据库管理服务端程序。服务端使用 Java 编写，Web 部分使用 TypeScript 和 React。
+本项目可免费使用，并以 [Apache 2](https://github.com/dbeaver/cloudbeaver/blob/devel/LICENSE) 许可证开源。
+更多信息请查看 [WIKI](https://github.com/dbeaver/cloudbeaver/wiki)。
 
 <a><img src="https://github.com/dbeaver/cloudbeaver/wiki/images/connection-creation-demo.png" width="400"/></a>
 <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/gis-demo.png" width="400"/>
 <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/data-transfer-demo.png" width="400"/>
 <img src="https://github.com/dbeaver/cloudbeaver/wiki/images/sql-editor-demo.png" width="400"/>
 
-## Run in Docker
+## Docker 运行
 
-- [Official Docker repository](https://hub.docker.com/r/dbeaver/cloudbeaver)
-- [Deployment instructions](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-Deployment)
+- [官方 Docker 仓库](https://hub.docker.com/r/dbeaver/cloudbeaver)
+- [部署说明](https://github.com/dbeaver/cloudbeaver/wiki/CloudBeaver-Deployment)
 
-## Demo server
+## 演示服务器
 
-You can see a live demo of CloudBeaver here: https://demo.cloudbeaver.io  
+CloudBeaver 在线演示地址： https://demo.cloudbeaver.io
 
-[Database access instructions](https://github.com/dbeaver/cloudbeaver/wiki/Demo-Server)
+[演示数据库访问说明](https://github.com/dbeaver/cloudbeaver/wiki/Demo-Server)
 
-## Changelog
+## 版本说明
+
+### 当前项目定制
+
+- 新增国产数据库支持：达梦、Kingbase、Oscar、HighGo、StarRocks。
+- 相关 JDBC 驱动已内置到项目中，支持独立构建和离线部署。
 
 ### 26.0.4 2026-05-04
 
