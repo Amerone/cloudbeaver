@@ -20,18 +20,23 @@
         <module>databend</module>
         <module>db2</module>
         <module>db2-jt400</module>
+        <module>dameng</module>
         <module>duckdb</module>
         <module>h2</module>
         <module>h2_v2</module>
         <module>h2_v3</module>
+        <module>highgo</module>
         <module>jaybird</module>
+        <module>kingbase</module>
         <module>kyuubi</module>
         <module>mysql</module>
         <module>mariadb</module>
         <module>oracle</module>
+        <module>oscar</module>
         <module>postgresql</module>
         <module>sqlite</module>
         <module>sqlserver</module>
+        <module>starrocks</module>
         <module>trino</module>
     </modules>
 

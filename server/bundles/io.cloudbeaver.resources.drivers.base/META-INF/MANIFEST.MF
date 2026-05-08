@@ -6,4 +6,5 @@ Bundle-Version: 1.0.146.qualifier
 Bundle-Release-Date: 20260518
 Bundle-Vendor: DBeaver Corp
 Bundle-ActivationPolicy: lazy
+Require-Bundle: org.jkiss.dbeaver.ext.generic
 Automatic-Module-Name: io.cloudbeaver.resources.drivers.base
